@@ -65,3 +65,5 @@ attention = MultiheadAttention(hid_dim=300, n_heads=6, dropout=0.1)
 output = attention(query, key, value)
 
 print(output.shape)
+
+
